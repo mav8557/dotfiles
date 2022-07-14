@@ -1,0 +1,43 @@
+font:
+  normal:
+    family: Iosevka
+    style: Regular
+    size: 16.0
+
+cursor:
+  style: Underline
+
+env:
+  TERM: xterm-256color
+
+
+colors:
+  # Default colors
+  primary:
+    background: '0x110a12'
+    foreground: '0xd7cbdb'
+
+  # Normal colors
+  normal:
+    black:   '0x1b131d'
+    #black:   '0x000000'
+    #red:     '0x251b28'
+    red:     '0xF3F3F3'
+    green:   '0x1fae39'
+    yellow:  '0x54415a'
+    blue:    '0x765c7e'
+    magenta: '0x9d7ea7'
+    cyan:    '0xc0acc7'
+    white:   '0xe7e0ea'
+
+  # Bright colors
+  bright:
+    black:   '0xe0cbe7'
+    red:     '0xe2c1c8'
+    green:   '0x8ae1d4'
+    yellow:  '0xdbb8e7'
+    blue:    '0xe7caa5'
+    magenta: '0xc7a36b'
+    cyan:    '0xedc1ca'
+    white:   '0xd996a6'
+

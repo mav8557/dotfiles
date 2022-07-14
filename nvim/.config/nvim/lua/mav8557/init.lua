@@ -1,0 +1,5 @@
+require('mav8557/telescope')
+require('mav8557/lightline')
+require('mav8557/gitsigns')
+require('mav8557/lsp')
+require('mav8557/treesitter')
