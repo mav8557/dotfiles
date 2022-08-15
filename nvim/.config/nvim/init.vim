@@ -85,8 +85,8 @@ call plug#end()
 lua require('mav8557')
 
 " Colorscheme
-colorscheme gruvbox-material
-"colorscheme snazzy
+"colorscheme gruvbox-material
+colorscheme snazzy
 "colorscheme one
 set background=dark
 
