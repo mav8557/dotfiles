@@ -91,6 +91,8 @@ colorscheme snazzy
 set background=dark
 
 " Lint on save
+autocmd BufWritePre *.go lua vim.lsp.buf.formatting()
+"autocmd BufWritePre *.py lue vim.lsp.buf.formatting()
 
 " Remaps
 let mapleader = ' '
