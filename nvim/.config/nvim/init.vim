@@ -104,6 +104,7 @@ let mapleader = ' '
 
 nnoremap <C-p> :Telescope find_files<Cr>
 nnoremap <leader>ff :Telescope live_grep<Cr>
+nnoremap <leader>oo :Telescope oldfiles<Cr>
 nnoremap <leader>gc :Git commit<Cr>
 nnoremap <silent><leader>gc :Git commit<Cr>
 nnoremap <silent><leader>gp :Git push<Cr>
