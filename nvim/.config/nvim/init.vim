@@ -116,6 +116,7 @@ nnoremap <silent><leader>gs :Git status<Cr>
 let g:EasyMotion_do_mapping = 0 " Disable default mappings
 
 let g:EasyMotion_keys = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+let g:EasyMotion_keys = 'abcdefghijklmnopqrstuvwxyz'
 let g:EasyMotion_do_shade=0
 
 " Jump to anywhere you want with minimal keystrokes, with just one key binding.
