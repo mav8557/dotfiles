@@ -1,7 +1,7 @@
 # battery status
 [battery]
 #command=echo "Battery: $(cat /sys/class/power_supply/BAT0/capacity)"
-command=battery.sh
+command=./battery.sh
 interval=20
 
 # Guess the weather hourly
