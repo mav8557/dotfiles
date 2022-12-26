@@ -1,6 +1,9 @@
 " enables syntax highlighting
 syntax on
 
+" Disable swap files
+set noswapfile
+
 " Better colors
 set termguicolors
 
