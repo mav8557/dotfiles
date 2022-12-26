@@ -56,6 +56,7 @@ set smartcase
 call plug#begin()
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 " Colorschemes
+Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 Plug 'sainnhe/gruvbox-material'
 Plug 'rakr/vim-one'
 Plug 'connorholyday/vim-snazzy'
@@ -86,7 +87,8 @@ lua require('mav8557')
 
 " Colorscheme
 "colorscheme gruvbox-material
-colorscheme snazzy
+"colorscheme snazzy
+colorscheme catppuccin
 "colorscheme one
 set background=dark
 
