@@ -96,8 +96,8 @@ colorscheme catppuccin
 set background=dark
 
 " Lint on save
-autocmd BufWritePre *.go lua vim.lsp.buf.formatting()
-"autocmd BufWritePre *.py lue vim.lsp.buf.formatting()
+autocmd BufWritePre *.go lua vim.lsp.buf.format({async = true})
+autocmd BufWritePre *.py lua vim.lsp.buf.format({async = true})
 
 " Remaps
 let mapleader = ' '
