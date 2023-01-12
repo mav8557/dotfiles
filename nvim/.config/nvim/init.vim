@@ -82,6 +82,10 @@ Plug 'dense-analysis/ale'
 Plug 'easymotion/vim-easymotion'
 Plug 'andweeb/presence.nvim'
 
+" Mason
+Plug 'williamboman/mason.nvim'
+Plug 'williamboman/mason-lspconfig.nvim'
+
 " Treesitter
 Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
 call plug#end()

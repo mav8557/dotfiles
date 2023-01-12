@@ -1,6 +1,10 @@
+-- mason
+
+require("mason").setup()
+require("mason-lspconfig").setup()
 -- lspconfig
 local nvim_lsp = require('lspconfig')
-local servers = { 'gopls', 'pyright' }
+local servers = { 'gopls', 'pyright', 'rust_analyzer'}
 
 local on_attach = function(client, bufnr)
     local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
